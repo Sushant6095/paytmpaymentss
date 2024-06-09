@@ -8,9 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
-  ,
+  "license": "ISC",
   "exports": {
-    "./balance": "./src/hooks/useBalance"
+    "./useBalance": "./src/hooks/useBalance"
+  },
+  "dependencies": {
+    "recoil": "^0.7.7"
   }
 }
